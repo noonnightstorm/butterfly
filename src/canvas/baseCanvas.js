@@ -187,7 +187,7 @@ class BaseCanvas extends Canvas {
           resolve();
         }, 10);
       });
-    }).then((resolve) => {
+    }).then(() => {
       return new Promise((resolve, reject) => {
         setTimeout(() => {
           // 生成edges
